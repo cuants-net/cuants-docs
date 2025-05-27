@@ -35,25 +35,11 @@ Presentación y documentación breve de proyectos funcionales desarrollados por 
 - Usá enlaces relativos para vincular entre secciones.
 - Podés incluir enlaces a notebooks externos (por ejemplo, en Google Colab) o archivos `.ipynb` locales.
 
-## Proyectos Cuants
-
-Los siguientes proyectos funcionales tienen sus propios repositorios de código y documentación:
-
-| Proyecto             | Descripción breve                    | Repositorio                                              |
-|----------------------|--------------------------------------|----------------------------------------------------------|
-| Cuants Backtester    | Motor de backtesting modular         | https://github.com/cuants-web/cuants-backtester         |
-| Cuants Visuals       | Herramientas de visualización        | https://github.com/cuants-web/cuants-visuals            |
-| Cuants DataAPI       | API de datos financieros internos    | https://github.com/cuants-web/cuants-dataapi            |
-
-Desde la carpeta `/proyectos/` se puede acceder a una descripción general de cada uno.
-
 ## Filosofía
 
 Este repositorio busca mantener una documentación clara, modular y útil para el desarrollo continuo de Cuants.net. La idea es que sea una base de conocimiento práctica y en constante evolución, mantenida por la comunidad del proyecto.
 
 ## Licencia
 
-Este proyecto está disponible bajo la licencia MIT, salvo que se indique lo contrario.
-
-
-
+Este repositorio está licenciado bajo [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+Podés copiar, adaptar y reutilizar el contenido, incluso con fines comerciales, siempre que cites la fuente original.
