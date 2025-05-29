@@ -6,11 +6,11 @@ Este documento explica cómo colaborar con el repositorio de documentación `cua
 
 Las secciones están organizadas en carpetas por temática:
 
-- `/conceptos/`: teoría y fundamentos
-- `/programacion/`: herramientas, snippets, flujos de código
-- `/practicas/`: ejercicios guiados y desafíos técnicos
-- `/aplicaciones/`: casos reales o notebooks aplicados
-- `/proyectos/`: presentación de proyectos funcionales (con enlaces a sus repositorios independientes)
+- `/fundamentos/`: contenidos teóricos esenciales (probabilidad, inferencia, regresión, series de tiempo, etc.)
+- `/herramientas/`: ecosistema Python aplicado al análisis cuantitativo (pandas, scikit-learn, yfinance, GARCH, etc.)
+- `/analisis/`: tareas y métodos clave del flujo cuantitativo (limpieza, modelado, riesgo, portafolios, etc.)
+- `/proyectos/`: casos reales desarrollados por Cuants.net, documentados de forma aplicada y completa.
+
 
 Cada entrada es un archivo `.md` ubicado dentro de la carpeta correspondiente.
 

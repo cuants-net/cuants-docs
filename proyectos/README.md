@@ -1,16 +1,36 @@
-# Proyectos
+# 🚀 Proyectos y aplicaciones
 
-Esta sección presenta los proyectos funcionales del ecosistema Cuants.net. Cada uno tiene su propio repositorio y documentación técnica específica.
+## 1. Predicción de precios de acciones
+- EDA
+- Regresión lineal
+- Validación
 
-## Proyectos activos
+## 2. Análisis de volatilidad de un activo
+- Estimación histórica vs. modelada
+- Modelo GARCH
+- Interpretación financiera
 
-- [Cuants Backtester](cuants_backtester.md): motor modular para simulación de estrategias.
-- [Cuants Visuals](cuants_visuals.md): herramientas de visualización interactivas.
+## 3. Optimización de portafolio
+- Selección de activos
+- Cálculo de matriz de covarianza
+- Frontera eficiente
 
-## Cómo contribuir
+## 4. Backtesting de estrategia de trading
+- Reglas simples basadas en indicadores
+- Simulación histórica
+- Evaluación de rendimiento
 
-- Esta carpeta no contiene código: solo fichas descriptivas.
-- Si desarrollás un nuevo proyecto, agregá un `.md` que incluya:
-  - Descripción
-  - Enlace al repositorio
-  - Enlace a la documentación externa (si aplica)
+## 5. Estimación de Value at Risk
+- Métodos históricos y paramétricos
+- Simulación Monte Carlo
+- Comparación y visualización
+
+## 6. Clustering de activos
+- Medidas de similitud
+- Clustering jerárquico
+- Segmentación de ETFs o acciones
+
+## 7. Análisis de series de tiempo macroeconómicas
+- Datos FRED o BCRA
+- Cointegración
+- Relación con mercados
