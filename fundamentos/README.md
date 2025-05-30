@@ -1,57 +1,55 @@
-# 📚 Fundamentos teóricos
+# 📙 Fundamentos teóricos para trading algorítmico
 
-## 1. Tipos de datos
-- Variables numéricas y categóricas
-- Datos financieros (precios, retornos, volumen)
-- Series temporales
+Esta sección cubre los conceptos estadísticos, probabilísticos y matemáticos necesarios para diseñar, evaluar y entender estrategias de trading cuantitativo y algorítmico. Cada tema está orientado a su aplicación directa en mercados financieros.
 
-## 2. Probabilidad
-- Espacio muestral y eventos
-- Probabilidad condicional
-- Variables aleatorias
-- Esperanza y varianza
-- Teorema de Bayes
+## Contenidos principales
 
-## 3. Distribuciones
-- Normal, log-normal
-- Binomial y Poisson
-- Distribuciones de retornos (t de Student, GEV)
-- Empíricas vs. teóricas
+### 1. Probabilidad y estadística financiera
 
-## 4. Muestreo
-- Muestreo aleatorio y estratificado
-- Tamaño muestral
-- Bootstrap
-- Sesgo de selección
+* Variables aleatorias y distribuciones (normal, log-normal, t-Student)
 
-## 5. Inferencia clásica
-- Estimación puntual e intervalos de confianza
-- Pruebas de hipótesis
-- Prueba t y ANOVA
-- Chi-cuadrado para independencia
+* Momentos y medidas de riesgo (varianza, curtosis, skewness)
 
-## 6. Inferencia bayesiana
-- Teorema de Bayes formal
-- A priori y posterior
-- Credibilidad
-- Aplicación a decisiones bajo incertidumbre
+* Probabilidad condicional y teorema de Bayes
 
-## 7. Modelos estadísticos
-- Regresión lineal simple y múltiple
-- Regresión logística
-- Diagnóstico de supuestos
-- Modelos para datos categóricos
-- Modelos para conteo (Poisson)
+* Inferencia estadística (estimaciones, tests de hipótesis)
 
-## 8. Series de tiempo
-- Componentes: tendencia, estacionalidad, ruido
-- AR, MA, ARIMA
-- Modelos GARCH
-- Estacionariedad
-- Predicción financiera
+### 2. Series temporales financieras
 
-## 9. Simulación y optimización
-- Simulación Monte Carlo
-- Evaluación de escenarios
-- Optimización de portafolios (Markowitz)
-- Restricciones y fronteras eficientes
+* Estacionariedad y transformaciones
+
+* Autocorrelación, ACF/PACF
+
+* Modelos ARIMA, SARIMA
+
+* Modelos ARCH/GARCH para volatilidad
+
+* Predicción y validación
+
+### 3. Modelos de regresión
+
+* Regresión lineal simple y múltiple
+
+* Regresión logística (clasificación de señales)
+
+* Evaluación de supuestos y ajustes
+
+### 4. Riesgo y rendimiento
+
+* Cálculo de retornos (logarítmicos, simples)
+
+* Ratio de Sharpe, Sortino, alfa y beta
+
+* Value at Risk (VaR) y Expected Shortfall (ES)
+
+* Medidas de drawdown y recuperación
+
+### 5. Optimización de portafolios
+
+* Teoría moderna de portafolio (Markowitz)
+
+* Frontera eficiente y línea de mercado
+
+* Optimización cuadrática con restricciones
+
+* Introducción a modelos con `cvxpy`

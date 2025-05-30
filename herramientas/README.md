@@ -1,42 +1,61 @@
-# 🛠️ Herramientas y técnicas
+# 🛠️ Herramientas para trading algorítmico
 
-Esta sección reúne los lenguajes, librerías y entornos esenciales para el trabajo en ciencia de datos cuantitativa con Python. Incluye recursos para procesamiento de datos, visualización, modelado estadístico y machine learning, optimización financiera y despliegue de modelos.
+Esta sección documenta las herramientas del ecosistema Python necesarias para construir estrategias de trading cuantitativas: obtención y manipulación de datos, modelado estadístico, visualización, backtesting y despliegue.
 
-## 1. Lenguaje y entornos de desarrollo
-- Python (versión recomendada, entorno virtual)
-- Jupyter Notebooks y JupyterLab
-- Google Colab (uso remoto)
-- VS Code (con extensiones útiles)
+## Contenidos principales
 
-## 2. Manejo y procesamiento de datos
-- pandas: carga, transformación y resumen de datos tabulares
-- numpy: álgebra lineal y arrays eficientes
-- datetime y manejo de series temporales
-- Lectura y escritura de archivos: CSV, Excel, JSON
+### 1. Entorno de trabajo
 
-## 3. Visualización de datos
-- matplotlib: gráficos base
-- seaborn: gráficos estadísticos de alto nivel
-- plotly: visualizaciones interactivas
-- gráficas financieras con `mplfinance`
+* Python (instalación y entorno virtual)
 
-## 4. Análisis estadístico y modelado
-- scipy.stats: pruebas estadísticas, distribuciones
-- statsmodels: modelos lineales, regresiones, series de tiempo
-- scikit-learn: clasificación, regresión, validación cruzada, pipelines
+* Jupyter Notebooks y VS Code
 
-## 5. Librerías para finanzas cuantitativas
-- yfinance: descarga de datos de mercado
-- pandas-datareader: acceso a fuentes como FRED, IEX, etc.
-- arch: modelos ARCH y GARCH para volatilidad
-- cvxpy: optimización convexa (portafolios)
-- empyrical: métricas de rendimiento financiero
-- TA-Lib (opcional): análisis técnico
-- bt: backtesting de estrategias simples
+* Google Colab
 
-## 6. Producción y control de flujo
-- Git y GitHub: versionado de código
-- Exportación de modelos (`pickle`, `joblib`)
-- Automatización con scripts y tareas programadas
-- APIs con Flask o FastAPI (despliegue de modelos)
-- Docker (intro) para entornos reproducibles
+### 2. Manejo de datos financieros
+
+* `pandas` y `numpy`
+
+* `datetime` y índices temporales
+
+* Carga de datos desde CSV, Excel, JSON, APIs
+
+* `yfinance`, `pandas-datareader`
+
+### 3. Visualización
+
+* `matplotlib`, `seaborn`, `plotly`
+
+* Gráficas de velas y volumen (`mplfinance`)
+
+### 4. Modelado y validación
+
+* `statsmodels` (series de tiempo, regresiones)
+
+* `scikit-learn` (modelado supervisado)
+
+* `arch` para modelos GARCH
+
+* Métricas de evaluación y validación cruzada
+
+### 5. Backtesting y estrategias
+
+* `bt` para backtesting de portafolios
+
+* `zipline` (intro)
+
+* `quantstats` para evaluación de rendimiento
+
+### 6. Optimización
+
+* `cvxpy` para optimización convexa de portafolios
+
+### 7. Producción y despliegue
+
+* Exportación de modelos (`pickle`, `joblib`)
+
+* Automatización de scripts
+
+* APIs con Flask / FastAPI
+
+* Docker (introductorio)

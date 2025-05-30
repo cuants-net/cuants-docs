@@ -1,42 +1,53 @@
-# 📊 Análisis cuantitativo
+# 📊 Análisis cuantitativo en trading algorítmico
 
-Esta sección reúne tareas fundamentales del flujo de trabajo en ciencia de datos aplicada a finanzas. Cada tema conecta teoría estadística con implementación práctica, orientada a resolver problemas reales del análisis cuantitativo.
+Esta sección aborda las tareas centrales del flujo de trabajo cuantitativo aplicadas al trading algorítmico: exploración, preparación de datos, modelado, validación y evaluación de estrategias sobre activos financieros.
 
-## 1. Preparación de datos financieros
-- Manejo de fechas y frecuencia temporal
-- Detección y tratamiento de valores faltantes y outliers
-- Escalado y normalización de variables
-- Transformaciones útiles (log, retornos, z-score)
+## Contenidos principales
 
-## 2. Análisis exploratorio (EDA)
-- Estadísticas descriptivas para activos financieros
-- Visualización de precios, retornos y volumen
-- Análisis de correlaciones y co-movimientos
+### 1. Exploración y limpieza de datos
 
-## 3. Predicción y modelado supervisado
-- Regresión para series de precios o retornos
-- Clasificación: generación de señales o etiquetas
-- Validación cruzada y entrenamiento robusto
-- Selección y creación de variables (features)
+* Estadísticas descriptivas
 
-## 4. Modelado de series temporales
-- Predicción de retornos con modelos ARIMA/SARIMA
-- Estimación y modelado de volatilidad (ARCH/GARCH)
-- Backtesting de modelos temporales
+* Tratamiento de valores nulos y outliers
 
-## 5. Evaluación y análisis de riesgo
-- Estimación de Value at Risk (VaR)
-- Expected Shortfall y riesgo extremo
-- Simulación de pérdidas y escenarios
-- Distribuciones de cola y stress testing
+* Transformaciones: log, z-score, retornos
 
-## 6. Optimización de portafolios
-- Teoría moderna de portafolio (Markowitz)
-- Frontera eficiente y optimización convexa
-- Asignación con restricciones y control de riesgo
+* Detección de anomalías
 
-## 7. Métricas de rendimiento financiero
-- Ratios clave: Sharpe, Sortino, alpha, beta
-- drawdown y recuperación
-- tracking error y benchmark relativo
+### 2. Generación de features
 
+* Moving averages, RSI, MACD
+
+* Indicadores técnicos con `TA-Lib`
+
+* Lags y rolling windows
+
+* Codificación de señales de entrada/salida
+
+### 3. Modelado predictivo
+
+* Predicción de precios o retornos
+
+* Clasificación de movimientos (up/down)
+
+* Evaluación: accuracy, precision, F1, ROC
+
+### 4. Estrategias de trading
+
+* Cruces de medias móviles
+
+* Momentum y reversión a la media
+
+* Estrategias basadas en reglas
+
+* Backtesting y control de overfitting
+
+### 5. Evaluación y riesgo
+
+* Métricas de rendimiento (Sharpe, Sortino, CAGR)
+
+* Drawdown y máxima pérdida
+
+* Comparación con benchmark
+
+* Gráficos de rendimiento y distribuciones

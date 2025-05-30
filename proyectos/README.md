@@ -1,36 +1,52 @@
-# 🚀 Proyectos y aplicaciones
+# 🚀 Proyectos Cuants.net
 
-## 1. Predicción de precios de acciones
-- EDA
-- Regresión lineal
-- Validación
+Esta sección documenta casos reales, prototipos y soluciones desarrolladas en el marco de Cuants.net. Cada proyecto está vinculado a una o más técnicas del libro.
 
-## 2. Análisis de volatilidad de un activo
-- Estimación histórica vs. modelada
-- Modelo GARCH
-- Interpretación financiera
+## Estructura de cada proyecto
 
-## 3. Optimización de portafolio
-- Selección de activos
-- Cálculo de matriz de covarianza
-- Frontera eficiente
+* **Objetivo:** Qué se busca resolver o demostrar.
 
-## 4. Backtesting de estrategia de trading
-- Reglas simples basadas en indicadores
-- Simulación histórica
-- Evaluación de rendimiento
+* **Datos utilizados:** Fuente, descripción, preprocesamiento.
 
-## 5. Estimación de Value at Risk
-- Métodos históricos y paramétricos
-- Simulación Monte Carlo
-- Comparación y visualización
+* **Metodología:** Flujo técnico aplicado (EDA, modelado, evaluación).
 
-## 6. Clustering de activos
-- Medidas de similitud
-- Clustering jerárquico
-- Segmentación de ETFs o acciones
+* **Resultados clave:** Métricas, visualizaciones, interpretaciones.
 
-## 7. Análisis de series de tiempo macroeconómicas
-- Datos FRED o BCRA
-- Cointegración
-- Relación con mercados
+* **Código:** Enlace al repositorio o notebook asociado.
+
+## Ejemplos de proyectos
+
+### 1. Predicción de retornos con regresión logística
+
+* Etiquetado de retornos binarios
+
+* Features: medias móviles, volatilidad, día de la semana
+
+* Validación purgada y evaluación de precisión
+
+### 2. Optimización de portafolio con restricciones
+
+* Portafolio de 5 activos con datos históricos
+
+* Optimización con `cvxpy`: riesgo mínimo y control de pesos
+
+* Visualización de frontera eficiente
+
+### 3. Análisis de volatilidad con modelos GARCH
+
+* Descarga de precios con yfinance
+
+* Estimación de volatilidad condicional
+
+* Comparación entre GARCH(1,1) y EWMA
+
+### 4. Backtesting de una señal basada en momentum
+
+* Generación de señal con media móvil exponencial
+
+* Criterios de entrada y salida
+
+* Cálculo de equity curve y drawdown
+
+***
+Los proyectos están organizados como documentos reproducibles, útiles tanto para aprendizaje como para construir portafolio profesional.
