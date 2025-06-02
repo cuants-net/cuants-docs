@@ -4,13 +4,16 @@ Este documento explica cómo colaborar con el repositorio de documentación `cua
 
 ## 1. Estructura general del repositorio
 
-Las secciones están organizadas en carpetas por temática:
+### Secciones actuales:
 
-- `/fundamentos/`: contenidos teóricos esenciales (probabilidad, inferencia, regresión, series de tiempo, etc.)
-- `/herramientas/`: ecosistema Python aplicado al análisis cuantitativo (pandas, scikit-learn, yfinance, GARCH, etc.)
-- `/analisis/`: tareas y métodos clave del flujo cuantitativo (limpieza, modelado, riesgo, portafolios, etc.)
-- `/proyectos/`: casos reales desarrollados por Cuants.net, documentados de forma aplicada y completa.
-
+- `/estadistica/`: probabilidad, inferencia, distribuciones, contrastes, simulación.
+- `/modelado/`: regresión, clasificación, clustering, técnicas de machine learning.
+- `/riesgo/`: sizing, drawdown, volatilidad, métricas ajustadas al riesgo.
+- `/estrategias/`: diseño de sistemas de trading, reglas, lógica operativa.
+- `/backtesting/`: validación histórica, simulación, motores, errores comunes.
+- `/portafolios/`: diversificación, optimización, asignación dinámica.
+- `/infraestructura/`: pipelines de datos, APIs, ejecución, automatización.
+- `/cuants-lab/`: espacio libre de exploración, hipótesis, observaciones y comunidad.
 
 Cada entrada es un archivo `.md` ubicado dentro de la carpeta correspondiente.
 

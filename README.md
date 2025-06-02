@@ -6,17 +6,26 @@ Documentación técnica del proyecto Cuants.net, organizada en módulos temátic
 
 El contenido está organizado en cuatro secciones principales:
 
-### [/fundamentos/](fundamentos/README.md)
-Base teórica de la ciencia de datos cuantitativa aplicada a finanzas: probabilidad, inferencia clásica y bayesiana, regresión, series de tiempo, simulación, optimización y teoría de portafolios.
+### [/estadistica/](estadistica/README.md)
+Fundamentos de probabilidad, inferencia clásica y bayesiana, distribuciones, contraste de hipótesis, simulación y nociones clave para construir pensamiento cuantitativo sólido.
 
-### [/herramientas/](herramientas/README.md)
-Lenguajes, librerías y entornos esenciales para el trabajo cuantitativo: Python, pandas, scikit-learn, statsmodels, yfinance, GARCH, `cvxpy`, Jupyter, Git, APIs y automatización.
+### [/modelado/](modelado/README.md)
+Técnicas de predicción, clasificación, clustering y reducción de dimensionalidad. Incluye machine learning supervisado y no supervisado con foco en datos financieros.
 
-### [/analisis/](analisis/README.md)
-Tareas centrales del flujo cuantitativo: preparación de datos financieros, análisis exploratorio, modelado predictivo, series de tiempo, estimación de riesgo, optimización de portafolios y métricas de rendimiento.
+### [/riesgo/](riesgo/README.md)
+Principios de gestión de riesgo: sizing, drawdown, volatilidad, control de exposición, métricas ajustadas al riesgo, riesgo de ruina, correlaciones y protección de capital.
 
-### [/proyectos/](proyectos/README.md)
-Casos reales desarrollados por Cuants.net: estrategias de predicción, análisis de volatilidad, backtesting, optimización de activos, estimación de pérdidas, y más. Cada proyecto documenta un flujo completo aplicado.
+### [/estrategias/](estrategias/README.md)
+Diseño de sistemas de trading: ideas, lógica de entrada/salida, condiciones de operación, reglas, implementación de estrategias tendenciales, reversión, estacionales y más.
+
+### [/backtesting/](backtesting/README.md)
+Simulación y validación histórica: frameworks de backtesting, segmentación temporal, métricas de rendimiento, errores comunes, look-ahead bias, overfitting y más.
+
+### [/portafolios/](portafolios/README.md)
+Optimización de carteras, asignación dinámica, teoría moderna y crítica, diversificación, riesgo conjunto, rebalanceo óptimo, clustering de activos y modelos jerárquicos.
+
+### [/infraestructura/](infraestructura/README.md)
+Aspectos operativos y técnicos: pipelines de datos, APIs de brokers, ejecución algorítmica, logging, latencia, robustez, automatización y despliegue de estrategias.
 
 ## ¿Cómo usar este repositorio?
 
