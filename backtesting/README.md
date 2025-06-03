@@ -10,7 +10,7 @@ Los capítulos están organizados por nivel de complejidad, desde lo esencial ha
 
 Conceptos iniciales para validar una estrategia simple.
 
-- [¿Qué es un backtest? Principios y limitaciones](que_es_backtest.md)
+- [¿Qué es un backtesting y cuales son los errores más comunes?](que_es_backtesting.md)
 - [Estructura mínima de un motor de backtesting](estructura_motor_basico.md)
 - [Sesgos comunes: look-ahead y survivorship](sesgos_basicos.md)
 - [Simulación simple con pandas: lógica evento a evento](simulacion_basica_pandas.md)
