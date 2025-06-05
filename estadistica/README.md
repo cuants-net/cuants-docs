@@ -1,43 +1,113 @@
 # Estadística para Trading Cuantitativo
 
-Esta sección contiene los fundamentos probabilísticos y estadísticos necesarios para construir, validar y comprender estrategias cuantitativas.
+Este índice organiza los contenidos del proyecto Cuants en tres niveles de complejidad, combinando el rigor conceptual de la estadística clásica con su aplicación directa al análisis de series temporales financieras. Cada módulo está diseñado para ser práctico, contextualizado y progresivo.
 
-Los contenidos están organizados en tres niveles de dificultad. Recomendamos comenzar por los capítulos básicos y avanzar progresivamente.
 
----
+## Nivel 1 · Fundamentos con enfoque aplicado
 
-## Temas Básicos
+Conceptos básicos explicados con ejemplos de cotizaciones y retornos reales.
 
-Conceptos fundamentales para cualquier trader cuantitativo.
+* **Variables aleatorias y distribuciones**
 
-- [Variables aleatorias y distribuciones](variables_aleatorias.md)
-- [Medidas de tendencia y dispersión](medidas_tendencia_dispersion.md)
-- [Probabilidad condicional e independencia](probabilidad_condicional.md)
-- [Eventos, conjuntos y combinatoria](eventos_combinatoria.md)
-- [Distribuciones comunes: normal, binomial, uniforme](distribuciones_comunes.md)
+  * Retornos como variables aleatorias
 
----
+  * Distribuciones empíricas de precios
 
-## Temas Intermedios
+* **Medidas de tendencia y dispersión**
 
-Aquí aparecen técnicas inferenciales y herramientas más aplicadas.
+  * Media, mediana, moda, desviación estándar
 
-- [Inferencia estadística: estimadores y sesgo](inferencia_estadistica.md)
-- [Intervalos de confianza y test de hipótesis](intervalos_y_tests.md)
-- [Correlación y regresión lineal simple](correlacion_regresion.md)
-- [Contrastes para medias y proporciones](tests_parametricos.md)
-- [Simulación y aleatorización con NumPy](simulacion_numpy.md)
+  * Aplicación a retornos diarios y semanales
 
----
+* **Eventos, probabilidad condicional e independencia**
 
-## Temas Avanzados
+  * Probabilidad de ganancia
 
-Fundamentos necesarios para modelos más sofisticados.
+  * Dependencia entre señales
 
-- [Inferencia bayesiana básica](bayes_intro.md)
-- [Modelos jerárquicos y prior elicitation](bayes_jerarquico.md)
-- [Distribuciones condicionales y conjuntas](distribuciones_condicionales.md)
-- [Estadística robusta y outliers](estadistica_robusta.md)
-- [Bootstrap y métodos de remuestreo](bootstrap.md)
+* **Distribuciones comunes en trading**
 
----
+  * Normal, binomial, lognormal, uniforme
+
+  * Cuándo se usan y qué implican
+
+* **Visualización y exploración de datos financieros**
+
+  * Histogramas, boxplots, curvas de equity
+
+  * Librerías y herramientas básicas en Python
+
+***
+
+## Nivel 2 · Inferencia y validación de estrategias
+
+Se introducen herramientas estadísticas para evaluar estrategias y tomar decisiones con datos históricos.
+
+* **Inferencia estadística: estimadores y sesgo**
+
+  * Estimación puntual
+
+  * Sesgo de selección y de supervivencia en backtesting
+
+* **Intervalos de confianza y tests de hipótesis**
+
+  * ¿Cuánto confío en que el rendimiento observado no fue suerte?
+
+  * Cálculo e interpretación de p-values en estrategias
+
+* **Comparación de estrategias**
+
+  * Tests para diferencias de medias y proporciones
+
+  * Pruebas no paramétricas: Sign test, Wilcoxon
+
+* **Correlación y regresión lineal simple**
+
+  * ¿Una variable explica la otra?
+
+  * Aplicaciones: regresión de activos, beta de un portafolio
+
+* **Simulación con NumPy**
+
+  * Monte Carlo de precios y retornos
+
+  * Estimación de drawdowns extremos
+
+***
+
+## Nivel 3 · Métodos avanzados y pensamiento estadístico
+
+Herramientas para quienes quieren construir modelos más robustos y adaptativos.
+
+* **Inferencia bayesiana**
+
+  * Priors, likelihood, posterior
+
+  * Aplicación: estimar probabilidad de que una estrategia funcione
+
+* **Modelos jerárquicos y agrupaciones**
+
+  * Múltiples activos o estrategias
+
+  * Pooling y shrinkage en escenarios reales
+
+* **Distribuciones condicionales y conjuntas**
+
+  * Modelado de dependencias
+
+  * Copulas introductorias
+
+* **Estadística robusta y manejo de outliers**
+
+  * Medidas insensibles a eventos extremos
+
+  * Aplicación: shock de liquidez o errores de ejecución
+
+* **Bootstrap y remuestreo**
+
+  * Validación de estrategias con pocos datos
+
+  * Estimación de intervalos de confianza no paramétricos
+
+***
+
