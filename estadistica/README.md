@@ -2,7 +2,7 @@
 
 Este índice organiza los contenidos del proyecto Cuants en tres niveles de complejidad, combinando el rigor conceptual de la estadística clásica con su aplicación directa al análisis de series temporales financieras. Cada módulo está diseñado para ser práctico, contextualizado y progresivo.
 
-[Procedimiento de documentación](Procedimiento_documentacion.md)
+[Procedimiento de documentación](procedimiento_documentacion.md)
 
 ## Nivel 1 · Fundamentos con enfoque aplicado
 
