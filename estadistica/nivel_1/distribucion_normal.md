@@ -1,7 +1,5 @@
 # Distribución normal
 
-**La reina de las distribuciones y su papel en el trading cuantitativo**
-
 ***
 
 ## ¿Qué es la distribución normal?
@@ -36,9 +34,7 @@ Se define por dos parámetros:
 
 * Aparece en **simulaciones de estrategias** y en técnicas como Monte Carlo.
 
-* Se usa para estimar rangos de precios esperados:
-
-  > "Con 95% de confianza, el precio estará dentro de ±1.96σ de la media"
+* Se usa para estimar rangos de precios esperados: Con 95% de confianza, el precio estará dentro de ±1.96σ de la media
 
 ***
 
@@ -78,4 +74,4 @@ plt.show()
 
 ***
 
-La distribución normal no es perfecta, pero es el punto de partida desde el que todo se construye — o se corrige.
+La distribución normal no es perfecta, pero es el punto de partida desde el que todo se construye, o se corrige.

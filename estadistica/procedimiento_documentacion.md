@@ -79,4 +79,59 @@ Caso práctico, visual o fragmento de código.
 ## Enlaces internos en Cuants
 Módulos relacionados.
 ```
+## Sistema de tags
+
+Divididos por tipo de uso:
+
+***
+
+### **Tipo de contenido**
+
+* `#concepto-base` → definición fundamental (media, varianza, probabilidad)
+
+* `#herramienta-estadistica` → algo que se usa para análisis (sharpe, drawdown, test)
+
+* `#modelo` → cuando aparezcan modelos probabilísticos, bayesianos, etc.
+
+* `#visualizacion` → gráficos, histograms, curvas
+
+***
+
+### **Función dentro del trading cuantitativo**
+
+* `#medida-de-rendimiento` → media, sharpe, retorno acumulado
+
+* `#medida-de-riesgo` → desviación, drawdown, VaR
+
+* `#validacion-de-estrategias` → p-values, tests, errores de backtesting
+
+* `#simulacion` → Monte Carlo, bootstraps, generadores aleatorios
+
+* `#optimizacion` → cuando lleguemos a mejorar estrategias
+
+* `#decision-de-inversion` → cuando analices señales o reglas de trading
+
+***
+
+### **Tipo de distribución o probabilidad**
+
+* `#distribucion-normal`
+
+* `#distribucion-binomial`
+
+* `#distribucion-uniforme`
+
+* `#distribucion-t-student` (más adelante)
+
+***
+
+### **Nivel del contenido**
+
+(opcional, si querés marcarlo internamente)
+
+* `#nivel-basico`
+
+* `#nivel-intermedio`
+
+* `#nivel-avanzado`
 
