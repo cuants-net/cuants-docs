@@ -100,14 +100,14 @@ Herramientas para quienes quieren construir modelos más robustos y adaptativos.
 
 * **Estadística robusta y manejo de outliers**
 
-  * Medidas insensibles a eventos extremos
+  * Medidas in**sensibles a eventos extremos
 
   * Aplicación: shock de liquidez o errores de ejecución
 
 * **Bootstrap y remuestreo**
 
   * Validación de estrategias con pocos datos
-
+**
   * Estimación de intervalos de confianza no paramétricos
 
 ***

@@ -71,7 +71,7 @@ print(f"Media muestral: {np.mean(muestra):.4%}")
 
 ***
 
-## Conclusión clave
+## Conclusión
 
 * Nunca tenemos todos los datos posibles → siempre trabajamos con **incertidumbre**
 

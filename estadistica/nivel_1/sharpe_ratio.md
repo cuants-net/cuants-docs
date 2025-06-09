@@ -22,19 +22,30 @@ $$Sharpe Ratio = \frac {R−R_f}{\sigma}$$
 
 ***
 
+**Aplicación al trading cuantitativo**
+
+El Sharpe Ratio permite comparar estrategias más allá de sus retornos brutos. Una estrategia puede parecer rentable, pero si lo hace con alta volatilidad, su Sharpe Ratio será bajo. Esto penaliza estrategias que logran ganancias a costa de grandes fluctuaciones. En algoritmos de trading, donde se prueban múltiples modelos, esta métrica ayuda a seleccionar estrategias más estables y sostenibles.
+
+Cuants utiliza el Sharpe Ratio no como fin en sí mismo, sino como una medida auxiliar para explorar la consistencia de un sistema, detectar sobreajuste o evaluar si un incremento de retorno se justifica por unidad de riesgo asumido.
+
 ## ¿Cómo se calcula?
 
-Dado un vector de retornos diarios:
 ```python
 import numpy as np
 
-retornos = np.array([0.01, 0.02, -0.005, 0.015, -0.01])
-media = np.mean(retornos)
-desvio = np.std(retornos)
-sharpe = media / desvio
-print(f"Sharpe ratio (sin ajuste por tasa libre de riesgo): {sharpe:.2f}")
+def sharpe_ratio(returns, risk_free_rate=0):
+    excess_returns = returns - risk_free_rate
+    return np.mean(excess_returns) / np.std(excess_returns)
+
+# Simulación simple
+np.random.seed(42)
+daily_returns = np.random.normal(loc=0.001, scale=0.02, size=252)  # 252 días
+sharpe = sharpe_ratio(daily_returns)
+print(f"Sharpe Ratio diario: {sharpe:.2f}")
+print(f"Sharpe Ratio anualizado: {sharpe * np.sqrt(252):.2f}")
 
 ```
+
 Si querés ajustarlo por una tasa libre de riesgo (por ejemplo, 3% anual), debés restar esa tasa ajustada al periodo del retorno.
 
 ## ¿Por qué importa en trading cuantitativo?
