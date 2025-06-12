@@ -78,37 +78,40 @@ Se introducen herramientas estadísticas para evaluar estrategias y tomar decisi
 
 ## Nivel 3 · Métodos avanzados y pensamiento estadístico
 
-Herramientas para quienes quieren construir modelos más robustos y adaptativos.
+### Ejes principales:
 
-* **Inferencia bayesiana**
+1. **Validación avanzada**
 
-  * Priors, likelihood, posterior
+   * Walk-forward
 
-  * Aplicación: estimar probabilidad de que una estrategia funcione
+   * Monte Carlo
 
-* **Modelos jerárquicos y agrupaciones**
+   * Pruebas out-of-sample reales
 
-  * Múltiples activos o estrategias
+   * Robustez paramétrica
 
-  * Pooling y shrinkage en escenarios reales
+   * Degradación temporal de sistemas
 
-* **Distribuciones condicionales y conjuntas**
+2. **Reflexiones de diseño cuantitativo**
 
-  * Modelado de dependencias
+   * ¿Qué hace que una estrategia sea estructuralmente sólida?
 
-  * Copulas introductorias
+   * ¿Cómo detectar sobreajuste con pocos datos?
 
-* **Estadística robusta y manejo de outliers**
+   * ¿Cómo pensar en términos de _distribución de resultados_, no de promedio?
 
-  * Medidas in**sensibles a eventos extremos
+3. **Gestión de complejidad y antifragilidad**
 
-  * Aplicación: shock de liquidez o errores de ejecución
+   * Cómo simplificar sin perder potencia
 
-* **Bootstrap y remuestreo**
+   * Sistemas adaptativos vs sistemas rígidos
 
-  * Validación de estrategias con pocos datos
-**
-  * Estimación de intervalos de confianza no paramétricos
+   * Tolerancia a error: cómo diseñar con fallas previstas
 
-***
+4. **Interacción entre intuición y validación**
+
+   * ¿Cómo traducir hipótesis de un trader discrecional a tests estadísticos?
+
+   * ¿Cómo preservar la creatividad sin autoengaño?
+
 
