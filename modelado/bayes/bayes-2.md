@@ -1,12 +1,10 @@
-# ¿Qué tanto rinde y cuánto arriesga este activo?
+# Estimación bayesiana de rendimientos diarios
 
-Estimar media y volatilidad de los retornos diarios con Bayes
+**"Estimar media y volatilidad de los retornos diarios con Bayes"**
 
 ---
 
-## 1. ¿Por qué empezar con AAPL?
-
-Antes de evaluar una estrategia, es clave entender el activo que opera.
+## 1. ¿Por qué elegimos AAPL?
 
 AAPL (Apple Inc.) es uno de los activos más líquidos y operados del mundo.  
 Nos sirve como ejemplo ideal para estimar dos cosas fundamentales:

@@ -1,4 +1,4 @@
-# ¿Por qué aprender estadística bayesiana?
+# 2. ¿Por qué aprender estadística bayesiana?
 
 La estadística bayesiana no es solo una técnica. Es una forma de pensar y decidir en entornos donde **la información es parcial, cambiante o incierta**. Esto la convierte en una herramienta poderosa para el análisis cuantitativo y la toma de decisiones estratégicas, como ocurre en el trading.
 
