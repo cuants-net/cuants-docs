@@ -126,15 +126,208 @@ Cada coeficiente puede interpretarse así:
 Estas interpretaciones nos ayudan a **comprender qué variables tienen más peso** en la decisión, y si el modelo está aprendiendo algo coherente con nuestra intuición o experiencia.
 
 ***
+## Odds ratio
+
+Antes de hablar de **odds ratio**, necesitamos entender primero qué son los **odds** (también llamadas *chances*).
+
+### ¿Qué son los *odds*?
+
+Los **odds** son una forma alternativa de expresar una probabilidad. En lugar de decir:
+
+“Hay un 80% de probabilidad de éxito”
+
+podemos decir:
+
+ “Hay 4 veces más chances de éxito que de fracaso”
+
+La fórmula general es:
+$$odds = \frac{p}{1 - p}$$
+
+Donde:
+p: probabilidad de éxito  
+1 - p: probabilidad de fracaso
+
+---
+
+### ¿Qué es el *odds ratio*?
+
+El **odds ratio (OR)** compara dos situaciones distintas, midiendo **cuántas veces mayores (o menores) son las odds** en un caso respecto al otro.
+
+$$
+\text{odds ratio} = \frac{\text{odds del grupo A}}{\text{odds del grupo B}}
+$$
+
+Es decir: es **una razón de razones**. Nos dice **cuánto cambian las odds** entre dos condiciones.
+
+### En regresión logística
+
+Cuando entrenamos un modelo logístico y obtenemos un coeficiente $\beta$, podemos calcular el **odds ratio** como:
+
+$$
+\text{odds ratio} = e^{\beta \cdot \Delta x}
+$$
+Esto nos dice **en cuánto se multiplican las odds** si la variable predictora aumenta $\Delta x$ unidades.
+
+- Si $\Delta x$ = 1 entonces:  
+  $$\text{odds ratio} = e^{\beta}$$
+
+### Ejemplo aplicado
+
+Supongamos que entrenamos el siguiente modelo:
+
+$$
+z(X) = \beta_0 + \beta_1 \cdot \text{Rango}
+$$
+
+Con los siguientes coeficientes:
+
+$\beta_0$ = -1  
+$\beta_1$ = 1.2
+
+Veamos qué pasa con las odds y el odds ratio cuando cambia la variable **Rango**.
+
+Caso 1: Rango = 1
+
+$$
+z = -1 + 1.2 \cdot 1 = 0.2
+$$
+
+$$
+\pi(x) = \frac{1}{1 + e^{-0.2}} \approx 0.55
+$$
+
+$$
+\text{odds}_1 = \frac{0.55}{0.45} \approx 1.22
+$$
+
+Caso 2: Rango = 2
+
+$$
+z = -1 + 1.2 \cdot 2 = 1.4
+$$
+
+$$
+\pi(x) = \frac{1}{1 + e^{-1.4}} \approx 0.80
+$$
+
+$$
+\text{odds}_2 = \frac{0.80}{0.20} = 4
+$$
+
+### Cálculo del *odds ratio*
+
+$$
+\text{odds ratio} = \frac{\text{odds}_2}{\text{odds}_1} = \frac{4}{1.22} \approx 3.28
+$$
+
+Y usando la fórmula directamente desde el modelo:
+
+$$
+\text{OR} = e^{\beta_1 \cdot \Delta x} = e^{1.2 \cdot (2 - 1)} = e^{1.2} \approx 3.32
+$$
+### Conclusión
+
+Si la variable **Rango** aumenta en una unidad, el modelo estima que las *odds* de éxito son aproximadamente **3.32 veces mayores** que antes.  Es decir, el **odds ratio** entre los dos escenarios es de **3.32**, lo que refleja **la magnitud del cambio en la probabilidad**, medida en el espacio de las odds.**
+
+---
+
+## Codificación de variables en regresión logística
+
+Para que el modelo de regresión logística sea claro y sus resultados sean fáciles de interpretar, es importante **decidir bien cómo codificar las variables**. Estas son las recomendaciones clave:
+
+
+### Variable dependiente (la que queremos predecir)
+
+Siempre debe ser binaria. Se codifica como:
+
+* `1` = el evento de interés ocurrió
+
+* `0` = el evento **no** ocurrió
+
+Esto es importante porque el modelo estima π(x)=P(Y=1∣X), o sea, **la probabilidad de que ocurra el evento codificado como 1.
+
+### Variables independientes (predictoras)
+
+Pueden ser de distintos tipos. Cada una se codifica de una forma distinta según su naturaleza:
+
+a) **Variable dicotómica** (sí/no, expuesto/no expuesto)
+
+* Se codifica como:
+
+  * `1` = el valor que **creemos que favorece la aparición del evento**
+
+  * `0` = el valor contrario
+
+Ejemplo:
+Si estamos estudiando si fumar influye en tener enfermedad cardíaca:
+* Fumador = 1
+* No fumador = 0
+
+Esto permite que el coeficiente asociado nos diga si **estar expuesto** a ese factor **aumenta o reduce las odds** del evento.
+
+b) **Variable categórica** (más de dos categorías, como nivel educativo, región, tipo de dieta)
+
+* No se puede meter tal cual en el modelo. Hay que transformarla usando variables **dummy** (también llamadas variables indicadoras).
+
+* Para una variable con k categorías, se crean k−1 dummies.
+
+* Una de las categorías debe elegirse como **caso de referencia**, y tendrá todas las dummies en 0.
+
+Ejemplo:
+Variable: Nivel educativo (Primario, Secundario, Universitario)
+Elegimos Primario como referencia
+* `Primario` → dummy1 = 0, dummy2 = 0
+* `Secundario` → dummy1 = 1, dummy2 = 0
+* `Universitario` → dummy1 = 0, dummy2 = 1
+
+Así, los coeficientes de las dummies nos dicen cómo cambian las odds **respecto al grupo de referencia**.
+
+c) **Variable numérica** (edad, ingresos, presión arterial...)
+
+Hay dos formas de tratarla, según cómo creamos que influye en la respuesta:
+
+**Opción 1:** Usar la variable numérica tal cual
+
+Esto se hace si creemos que:
+
+“Por cada unidad que aumenta la variable, las odds cambian por un factor constante.”_
+
+Es decir, que el **log odds** cambia de manera **lineal** con la variable.
+
+Ejemplo:
+Si usamos edad directamente y el modelo estima un OR de 1.05, quiere decir:\
+“Por cada año más de edad, las odds aumentan un 5%.”
+
+Si **no estás seguro** de que esa relación sea razonable o lineal, mejor no usar esta opción.
+
+**Opción 2:** Categorizar la variable
+
+Una opción más flexible es convertir la variable numérica en una variable categórica. Por ejemplo, dividiéndola en:
+
+* Valores **bajos**, **medios** y **altos**
+
+Esto puede hacerse:
+
+* A mano (usando cortes elegidos por conocimiento del problema)
+
+* Automáticamente (usando percentiles para que haya la misma cantidad de casos en cada grupo)
+
+Ejemplo:
+Para la edad, podríamos usar:
+* Menores de 30
+* Entre 30 y 60
+* Mayores de 60
+
+Y luego usar dummies como si fuera una variable categórica.
 
 ### Notas conceptuales
 
-* Lo que llamamos “rango” y “dirección” en este ejemplo se conocen formalmente como **variables predictoras** o **features**.
+* Las variables como “rango” y “dirección” en el ejemplo se conocen formalmente como **variables predictoras**, **regresoras** o **features** (en el contexto de machine learning).
 
-* El resultado que buscamos (¿subió o no?) es la **variable de respuesta** o **target**.
+* El valor que queremos predecir (por ejemplo, si el precio subió o no) se denomina **variable de respuesta**, también llamada **variable dependiente** o **target**.
 
-* El modelo que usamos se llama **regresión logística binaria**, y pertenece a la familia de **modelos lineales generalizados**.
+* El modelo utilizado se llama **regresión logística binaria** y forma parte de la familia de los **modelos lineales generalizados (GLM)**.
 
-* El proceso de construir esta fórmula a partir de datos se llama **entrenamiento supervisado**, y el objetivo es **clasificar** cada caso en una de dos clases: éxito (1) o fracaso (0).
+* El proceso de ajustar el modelo a los datos para predecir un resultado binario se llama **aprendizaje supervisado**. El objetivo es **clasificar** cada observación en una de dos clases posibles: **éxito (1)** o **fracaso (0)**.
 
 ***
