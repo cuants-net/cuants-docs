@@ -1,0 +1,80 @@
+# Introducción a la inferencia estadística
+
+La **inferencia estadística** es el proceso por el cual sacamos conclusiones sobre una población completa, observando solamente una **muestra**. 
+
+## ¿Por qué usamos muestras?
+
+Porque no tenemos acceso a la totalidad del mercado. Siempre trabajamos con recortes:
+
+- Operaciones de una estrategia en un tramo específico  
+- Días recientes de un activo  
+- Períodos con ciertas condiciones de volatilidad
+ 
+Entonces lo que hacemos es: **tomar una porción de datos**, asumir que representa al todo, y a partir de eso... inferir.
+
+## ¿Qué permite hacer la inferencia?
+
+Nos da herramientas para:
+
+- **Estimar**: valores reales a partir de lo que vimos (media, proporción)
+- **Acotar**: cuánto error podríamos estar cometiendo (intervalos de confianza)
+- **Contrastar**: si una diferencia es real o podría haber salido por azar (tests de hipótesis)
+
+## ¿Y si lo que analizamos cambia con el tiempo?
+
+El mercado no se comporta siempre igual. Lo que hoy es rentable, mañana puede no serlo.  
+A eso lo llamamos informalmente un mercado **cambiante**; en estadística: **no estacionario**.
+
+Una serie **no estacionaria** es aquella cuyo comportamiento **no es constante en el tiempo**. Es decir:
+
+- Su **media puede cambiar**
+- Su **varianza puede cambiar**
+- Su **estructura de dependencia** puede cambiar
+
+Y si eso pasa, lo que estás estimando ahora, **puede dejar de servir muy pronto**.
+
+Ejemplos en el mercado:
+- Cambios de régimen (COVID, crisis 2008, tasas cero)
+- Cambios en la volatilidad (eventos de alto impacto)
+- Comportamiento distinto en sesiones asiáticas vs. estadounidenses
+
+## ¿Cuándo sigue siendo útil la inferencia?
+
+* 1. **Cuando acotás tu análisis a un contexto estable**
+
+Ejemplo:
+“¿Tuvo esta estrategia un rendimiento medio distinto de cero entre enero y abril de 2023?”
+
+Sí, podés aplicar inferencia, porque estás **acotando el análisis a un tramo donde los parámetros pueden asumirse aproximadamente estables.**
+
+* 2. **Cuando la serie es localmente estacionaria**
+
+Muchas veces, aunque el mercado sea no estacionario a gran escala, **sí se puede considerar estacionario en tramos breves** (lo que se llama “estacionariedad local”).
+
+Podés usar inferencia en esos tramos **si antes verificás que los supuestos se cumplen aproximadamente** (o al menos no se violan groseramente).
+
+* 3. **Cuando usás métodos robustos o no paramétricos**
+
+Si sabés que la serie es no estacionaria, **podés aplicar herramientas como:**
+
+* pruebas no paramétricas (Wilcoxon, bootstrap, permutaciones)
+
+* inferencia bayesiana (donde vos controlás los supuestos)
+
+* segmentación previa del dato para tratarlo como piezas distintas
+
+La inferencia **sigue siendo útil**, pero **solo si comprendés y respetás sus condiciones de aplicabilidad**. No se trata de abandonar la inferencia, sino de **reformularla como herramienta local, contextual y crítica**.
+
+## ¿Cuándo pierde valor la inferencia?
+
+* Cuando usás todo el historial del mercado como si fuera una muestra homogénea.
+* Cuando comparás estrategias en tramos con comportamientos radicalmente distintos sin aclararlo.
+* Cuando forzás distribuciones normales en datos que claramente no lo son.
+* Cuando asumís que el rendimiento futuro “debería parecerse” al pasado, sin reconocer el cambio de contexto.
+
+## Entonces… ¿por qué aprendemos esto?
+
+Porque aún en un mercado que cambia, necesitamos decidir.  
+Y necesitamos medir cuánto confiar en lo que estamos viendo.  
+Esa es la función real de la inferencia: **no decirte la verdad, sino ayudarte a no engañarte.**
+
