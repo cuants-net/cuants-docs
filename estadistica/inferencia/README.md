@@ -1,50 +1,49 @@
-# Inferencia estadística
+# Inferencia Estadística en Cuants
 
-Una serie de herramientas para estimar, comparar y decidir a partir de datos incompletos.  
-En esta sección trabajamos con muestras —porque el mercado nunca nos muestra todo— y con incertidumbre, porque decidir sin ella es solo adivinar.
+Una serie de herramientas para estimar, comparar y decidir a partir de datos incompletos. En esta sección trabajamos con muestras —porque el mercado nunca nos muestra todo— y con incertidumbre, porque decidir sin ella es solo adivinar.
 
----
 
-## 1. Punto de partida: ¿por qué inferimos?
+## A. Fundamento lógico
 
-- [introduccion_inferencia_estadistica.md](introduccion_inferencia_estadistica.md)
+1. Introducción a la inferencia estadística
 
-## 2. Estimar: medias, proporciones y error
+2. ¿Tiene sentido aplicar inferencia en trading?
 
-- [medias_muestrales.md](medias_muestrales.md)  
-- [distribucion_muestral_proporciones.md](distribucion_muestral_proporciones.md)  
-- [tamano_muestra_necesaria.md](tamano_muestra_necesaria.md)
 
----
+## B. Estimación a partir de muestras
 
-## 3. Acotar la incertidumbre: intervalos de confianza
+3. Intervalo de confianza bilateral
 
-- [intervalos_confianza_media.md](intervalos_confianza_media.md)  
-- [intervalo_confianza_proporcion.md](intervalo_confianza_proporcion.md)  
-- [tamano_muestra_para_proporcion.md](tamano_muestra_para_proporcion.md)
+4. Intervalo de confianza unilateral
 
----
+5. Errores tipo I, tipo II y potencia estadística
 
-## 4. Contrastar: pruebas de hipótesis
+6. ¿Cuántos datos necesito para confiar?
 
-- [test_hipotesis.md](test_hipotesis.md)  
-- [test_diferencia_medias.md](test_diferencia_medias.md)  
-- [errores_tipo_i_ii.md](errores_tipo_i_ii.md)  
-- [p-valor_significancia.md](p-valor_significancia.md)
 
----
+## C. Aplicado a proporciones (tasa de acierto)
 
-## 5. Cuando la inferencia clásica no alcanza
+7. Intervalo de confianza para proporciones
 
-- [cuando_no_tiene_sentido_inferir.md](cuando_no_tiene_sentido_inferir.md)  
-- [inferencia_en_series_no_estacionarias.md](inferencia_en_series_no_estacionarias.md)  
-- [la_inferencia_tiene_sentido_en_el_mercado.md](la_inferencia_tiene_sentido_en_el_mercado.md)
+8. Test de hipótesis para proporciones
 
----
+9. ¿Cómo gana una estrategia que acierta poco?
 
-## 6. Apertura a nuevas formas de pensar
 
-- [introduccion_bootstrap.md](introduccion_bootstrap.md)  
-- [porque_bayes.md](../bayes/porque_bayes.md)
+## D. Contrastes para medias
 
----
+10. Test de hipótesis para la media
+
+11. Comparación de dos medias: ¿es mejor mi nueva estrategia?
+
+
+## E. Ampliaciones y límites del enfoque clásico
+
+12. Inferencia en series no estacionarias
+
+13. Cuándo no tiene sentido inferir
+
+14. Introducción a Bayes
+
+15. ¿Y si muestreo mil veces con bootstrap?
+
