@@ -1,4 +1,4 @@
-# Inferencia Estadística en Cuants
+# Inferencia Estadística clásica
 
 Una serie de herramientas para estimar, comparar y decidir a partir de datos incompletos. En esta sección trabajamos con muestras —porque el mercado nunca nos muestra todo— y con incertidumbre, porque decidir sin ella es solo adivinar.
 
@@ -27,14 +27,15 @@ Una serie de herramientas para estimar, comparar y decidir a partir de datos inc
 
 8. Test de hipótesis para proporciones
 
-9. ¿Cómo gana una estrategia que acierta poco?
 
 
 ## D. Contrastes para medias
 
-10. Test de hipótesis para la media
+9. Test de hipótesis para la media
 
-11. Comparación de dos medias: ¿es mejor mi nueva estrategia?
+10. Comparación de dos medias: ¿es mejor mi nueva estrategia?
+
+11. Introducción al p-valor
 
 
 ## E. Ampliaciones y límites del enfoque clásico
@@ -44,6 +45,4 @@ Una serie de herramientas para estimar, comparar y decidir a partir de datos inc
 13. Cuándo no tiene sentido inferir
 
 14. Introducción a Bayes
-
-15. ¿Y si muestreo mil veces con bootstrap?
 

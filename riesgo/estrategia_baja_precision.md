@@ -1,4 +1,4 @@
-# ¿Cómo gana una estrategia que acierta poco?
+# Estrategia de baja precision
 
 ## Introducción
 
