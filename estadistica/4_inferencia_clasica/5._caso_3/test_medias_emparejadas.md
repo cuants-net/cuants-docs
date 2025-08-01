@@ -6,7 +6,8 @@ Probaste una estrategia nueva durante un mes. Cada día, anotaste el resultado y
 
 Tenés entonces **pares de datos**: el rendimiento diario con la estrategia vieja y el rendimiento con la nueva, para el mismo día.
 
-La pregunta es:\
+La pregunta es:
+
 **¿La nueva estrategia realmente mejora tus resultados?**
 
 Ahí entra el **test de medias emparejadas**.
@@ -46,7 +47,14 @@ Querés ver si esa diferencia media es significativa.
 
 ### Paso 1: Calcular el error típico de la diferencia
 
+$SE = \frac{s_d}{\sqrt{n}} = \frac{0.25}{\sqrt{30}} \approx 0.0456$
+
 ### Paso 2: Construir intervalo de confianza del 95%
+Buscamos el valor crítico de la t de Student con grados de libertad:
+
+t(0.025, 29) = 2.045
+
+$IC = \bar{d} \pm t_{\alpha/2} \cdot SE = 0.09 \pm 2.045 \cdot 0.0456 = ( -0.003, 0.183 )$
 
 ### Interpretación
 
@@ -54,15 +62,18 @@ Como el intervalo **incluye el cero**, **no podés afirmar con confianza** que l
 
 Tal vez lo sea, pero **tus datos no alcanzan** para demostrarlo con significancia estadística.
 
-## Visualización
+## Visualización sugerida
 
-Podés pensar en una nube de diferencias.
+Podés graficar las 30 diferencias como puntos en una línea horizontal.
 
-* Si están distribuidas alrededor de cero, no hay evidencia de mejora.
+* Trazá una línea en 0 (sin diferencia).
 
-* Si están claramente hacia valores positivos, la mejora es consistente.
+* Mostrá el promedio con una línea vertical.
 
-La estadística no ve solo el promedio: también mira la variabilidad.
+* Agregá bandas de ±1 desviación estándar o el intervalo de confianza.
+
+Esto te permite ver de un vistazo si la mayoría de las diferencias tienden a ser positivas o si están dispersas.
+
 
 ## ¿Cuándo conviene este enfoque?
 
@@ -74,7 +85,7 @@ Cuando trabajás con **pares naturales**:
 
 * Misma estrategia, pero con un ajuste en los parámetros
 
-Este test te permite eliminar parte del ruido común a ambas condiciones.
+Este test te permite eliminar parte del ruido común a ambas condiciones, haciendo más sensible la comparación.
 
 
 ## Nota conceptual
@@ -84,11 +95,3 @@ Este enfoque clásico se basa en la diferencia de medias y asume que los datos t
 En la sección de **modelos no paramétricos**, veremos cómo abordar esta comparación de forma más flexible, sin asumir normalidad y evaluando directamente el signo o el orden de las diferencias. Una de esas herramientas es el **test de Wilcoxon para muestras emparejadas**, que podés usar como alternativa cuando los supuestos clásicos no se cumplen.
 
 
-## Cierre
-
-Evaluar una estrategia nueva no es solo mirar el promedio.
-Es comparar en condiciones reales, y ver si **consistentemente mejora lo anterior**.
-
-El test de muestras emparejadas te ayuda a ver si el cambio vale la pena...
-
-...o si todavía no hay evidencia suficiente para dejar lo viejo.

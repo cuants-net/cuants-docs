@@ -11,8 +11,6 @@ La pregunta es:
 La estadística tiene una herramienta para eso:  
 el **test de hipótesis para diferencia de medias**.
 
----
-
 ## El problema concreto
 
 Supongamos que:
@@ -59,11 +57,9 @@ Supongamos:
 - $n_A = n_B = 50$
 
 ### Paso 1: Calcular la diferencia de medias
-
 $$
 \bar{d} = \bar{x}_B - \bar{x}_A = 0.27 - 0.18 = 0.09
 $$
-
 ### Paso 2: Calcular el error típico
 
 Si asumimos varianzas similares, el error típico (aproximado) es:
@@ -80,7 +76,7 @@ $$
 
 ### Interpretación
 
-El intervalo **incluye el 0** → **no podés afirmar que B es mejor**.
+El intervalo **incluye el 0**, entonces **no podés afirmar que B es mejor**.
 
 
 ## ¿Y si el intervalo no incluyera el cero?
@@ -106,12 +102,8 @@ Entonces sí podrías decir:
 
 ## Cierre
 
-Comparar estrategias no es solo mirar cuál dio más.
+Comparar estrategias no es solo mirar cuál dio más. Es entender si la diferencia se sostiene más allá del ruido.
 
-Es entender si la diferencia se sostiene más allá del ruido.
+Y con un simple test de hipótesis para la diferencia de medias, podés evitar cambiar de rumbo por ilusiones estadísticas.
 
-Y con un simple test de hipótesis para la diferencia de medias,  
-podés evitar cambiar de rumbo por ilusiones estadísticas.
-
-Porque en el trading —como en la vida—  
-**no todo lo que parece mejor… realmente lo es.**
+Porque en el trading, como en la vida, **no todo lo que parece mejor… realmente lo es.**
