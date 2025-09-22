@@ -1,13 +1,16 @@
 
-# Ejemplos de Python – Proyecto Cuants
+# Curso rápido de Python
 
 * Este módulo reúne fichas progresivas en formato **Jupyter Notebooks**, diseñadas para aprender Python aplicado al trading.  
 
 * Cada ficha sigue la secuencia didáctica: **Introducción → Ejemplo aplicado → Exploración → Nota conceptual (opcional)**.
 
----
 
-## 1. Fundamentos de Python mínimo útil
+
+
+## 1.1 Fundamentos de Python
+- 1 [Introduccion](introduccion.md)
+- 2. 
 - [1.1 Variables y operaciones básicas](notebooks/1.1_variables.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cuants-net/cuants-docs/blob/main/python/notebooks/1.1_variables.ipynb)
 - [1.2 Listas y acceso a elementos](notebooks/1.2_listas.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cuants-net/cuants-docs/blob/main/python/notebooks/1.2_listas.ipynb)
 - [1.3 Diccionarios y búsqueda rápida](notebooks/1.3_diccionarios.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cuants-net/cuants-docs/blob/main/python/notebooks/1.3_diccionarios.ipynb)
