@@ -1,5 +1,6 @@
 # Test de hipótesis para la diferencia de medias
 
+
 ## Introducción
 
 Probaste dos estrategias de trading.  
