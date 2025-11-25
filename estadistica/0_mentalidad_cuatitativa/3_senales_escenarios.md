@@ -248,7 +248,7 @@ Y con eso desaparece:
 
 ***
 
-## 9. Conclusión de la Ficha 3
+## 9. Conclusión
 
 El paso de señales a escenarios es uno de los saltos cognitivos más importantes en el camino cuantitativo.
 

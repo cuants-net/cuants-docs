@@ -46,7 +46,7 @@ Pensar en certezas te encierra. Pensar en escenarios te libera: deja de importar
 
 ### **Ejemplo cotidiano:
 
-Vas a dar una charla importante. Dormiste bien, desayunaste bien, hoy te sentís lúcido… pero igual sabés que puede fallar:
+Vas a dar una charla importante. Dormiste bien, hoy te sentís lúcido… pero igual sabés que puede fallar:
 
 * te puede atacar la ansiedad,
 

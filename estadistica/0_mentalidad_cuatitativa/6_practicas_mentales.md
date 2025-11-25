@@ -1,12 +1,7 @@
-# **Ficha 6 — Prácticas mentales para desarrollar la mentalidad cuantitativa**
+# Prácticas mentales para desarrollar la mentalidad cuantitativa
+## 1. Introducción: La mentalidad se entrena, no se declara
 
-_(Bloque: Mentalidad Cuantitativa — Nivel Básico)_
-
-***
-
-# **1. Introducción — La mentalidad se entrena, no se declara**
-
-Pensar como un cuantitativo no ocurre por leer teoría.\
+Pensar como un cuantitativo no ocurre por leer teoría.
 Ocurre por **repetición consciente** de ciertos modos de ver el mundo.
 
 La mente se moldea igual que un músculo:
@@ -25,7 +20,7 @@ Esta ficha reúne prácticas concretas que transforman tu percepción del mercad
 
 ***
 
-# **2. Práctica 1 — Ver distribuciones donde otros ven números**
+## 2. Práctica 1: Ver distribuciones donde otros ven números
 
 Cada vez que veas un número cualquiera en tu vida diaria, preguntate:
 
@@ -45,12 +40,12 @@ Ejemplos cotidianos:
 
 * distancia recorrida en bici → distribución con condiciones externas
 
-Este ejercicio cambia tu mente:\
+Este ejercicio cambia tu mente:
 deja de pensar en valores puntuales y empieza a ver **rangos**, **variabilidad**, **frecuencias**.
 
 ***
 
-# **3. Práctica 2 — Transformar predicciones en escenarios**
+## 3. Práctica 2: Transformar predicciones en escenarios
 
 Cuando tu mente quiera decirte:
 
@@ -62,16 +57,16 @@ Cuando tu mente quiera decirte:
 
 convertí esa frase en un escenario:
 
-**“Puede pasar A, B o C.\
-La probabilidad aproximada es (…),\
+**“Puede pasar A, B o C.
+La probabilidad aproximada es (…),
 y lo relevante es: ¿qué hago en cada uno?”**
 
-Es un ejercicio simple, pero transforma el cerebro:\
+Es un ejercicio simple, pero transforma el cerebro:
 dejás de pensar en certezas, empezás a pensar en **árboles de decisión**.
 
 ***
 
-# **4. Práctica 3 — Reemplazar el juicio por la medición**
+## 4. Práctica 3 — Reemplazar el juicio por la medición
 
 En vez de “esto funciona” o “esto no funciona”, preguntate:
 
@@ -94,12 +89,10 @@ Tu mente empieza a desconfiar sanamente de los sesgos del momento.
 
 ***
 
-# **5. Práctica 4 — Meditar en la variabilidad**
+## Práctica 4 — Observar la variabilidad
 
-No es meditación mística: es observación.
-
-Elegí un fenómeno real y variable:\
-el viento, el agua que corre, las nubes, el tráfico, una fogata, un arroyo.
+Elegí un fenómeno real y variable:
+El viento, el agua que corre, las nubes, el tráfico, una fogata, un arroyo.
 
 Observá cómo:
 
@@ -119,7 +112,7 @@ Este ejercicio reduce ansiedad y entrena tu tolerancia al error.
 
 ***
 
-# **6. Práctica 5 — Anotar intuiciones como hipótesis**
+## Práctica 5 — Anotar intuiciones como hipótesis
 
 Cada intuición que tengas sobre el mercado anotala en un cuaderno como:
 
@@ -135,24 +128,24 @@ Esto entrena tu mente a **no operar intuiciones**, sino a **usar intuiciones com
 
 ***
 
-# **7. Práctica 6 — Entrenar la humildad epistémica**
+## Práctica 6: Entrenar la humildad epistémica**
 
 Todos los días hacé este micro-ejercicio mental:
 
-**“¿Qué podría estar viendo mal?”**\
-**“¿Qué parte de mi lectura es suposición?”**\
+**“¿Qué podría estar viendo mal?”**
+**“¿Qué parte de mi lectura es suposición?”**
 **“¿Qué parte es evidencia real?”**
 
-La humildad epistémica no es inseguridad.\
+La humildad epistémica no es inseguridad.
 Es precisión cognitiva.
 
 Aumenta la claridad y reduce impulsos.
 
 ***
 
-# **8. Práctica 7 — Exposición controlada al error**
+## Práctica 7: Exposición controlada al error
 
-Una vez por día, hacé algo pequeño donde permitas un error seguro:\
+Una vez por día, hacé algo pequeño donde permitas un error seguro:
 un experimento leve que pueda salir mal sin consecuencias.
 
 Ejemplos:
@@ -175,7 +168,7 @@ Y eso se transfiere directo al trading.
 
 ***
 
-# **9. Práctica 8 — Ritual de post-análisis sin juicio**
+## Práctica 8: Ritual de post-análisis sin juicio
 
 Cuando revises tu día (en mercado o en la vida):
 
@@ -197,9 +190,9 @@ Esto entrena la lectura fría del sistema sin castigarte.
 
 ***
 
-# **10. Conclusión de la Ficha 6**
+## 10. Conclusión
 
-La mentalidad cuantitativa no surge de la estadística formal.\
+La mentalidad cuantitativa no surge de la estadística formal.
 Surge de prácticas mentales que remodelan tu percepción profunda de la incertidumbre.
 
 Estos ejercicios:
@@ -216,7 +209,7 @@ Estos ejercicios:
 
 * más coherente con la realidad estocástica del mercado.
 
-Un sistema cuantitativo no solo se programa en Python.\
+Un sistema cuantitativo no solo se programa en Python.
 También se **programa en tu mente**.
 
 Ganar claridad, soltar ansiedad y entender el comportamiento del mundo real es el primer gran backtest interno.

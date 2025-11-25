@@ -1,4 +1,5 @@
 # Manejar incertidumbre y error sin ansiedad
+
 ## 1. La ansiedad aparece cuando la mente espera certezas
 
 La ansiedad del trader no viene del mercado. Viene de una expectativa equivocada:
@@ -151,7 +152,7 @@ Las decisiones se vuelven más limpias.
 
 ***
 
-# **7. El error como parte del diseño, no como sorpresa**
+## 7. El error como parte del diseño, no como sorpresa
 
 La diferencia entre un trader y un cuantitativo es esta:
 

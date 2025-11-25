@@ -4,11 +4,11 @@
 
 **Vivimos en un mundo estocástico, aunque la sociedad nos venda lo contrario**
 
-En la vida cotidiana todo está lleno de variabilidad: el clima cambia sin pedir permiso, el tránsito nunca tarda lo mismo, el cuerpo no rinde igual todos los días, la naturaleza es irregular, viva, ruidosa, impredecible.
+En la vida cotidiana todo está lleno de variabilidad: el clima cambia continuamente, el tránsito nunca tarda lo mismo, el cuerpo no rinde igual todos los días, la naturaleza es irregular, viva, ruidosa, impredecible.
 
 Sin embargo, la sociedad moderna intenta convencernos de lo contrario.
 
-El sistema necesita que **comamos lo mismo**, **compremos lo mismo**, **trabajemos con horarios estables**, **tengamos ingresos fijos** y tomemos decisiones previsibles.
+El sistema necesita que **compremos lo mismo**, **trabajemos con horarios estables**, **tengamos ingresos fijos** y tomemos decisiones previsibles.
 
 Es comprensible: para que una empresa produzca, para que un banco preste, para que un gobierno planifique, la estabilidad es cómoda.
 
@@ -50,19 +50,19 @@ No solo del mercado, sino del mundo.
 
 ***
 
-## 2. El mundo funciona por procesos, no por certezas**
+## 2. El mundo funciona por procesos, no por certezas
 
 Todo fenómeno real tiene variabilidad:
 
-* el clima,
+* El clima,
 
-* la lluvia,
+* La lluvia,
 
-* las temperaturas,
+* La temperatura,
 
-* el tránsito,
+* El tránsito,
 
-* tu energía diaria,
+* Tu energía diaria,
 
 La estadística no es una ciencia extraña: es **la representación simbólica de esa variabilidad que ya vivís todos los días**.
 
