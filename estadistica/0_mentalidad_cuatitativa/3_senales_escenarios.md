@@ -2,6 +2,19 @@
 
 # **1. Introducción — La trampa de la señal perfecta**
 
+### **Objetivos específicos:**
+
+1. Que el lector distinga incertidumbre real de miedo psicológico.
+
+2. Que entienda que el error y la variabilidad no significan “fracaso”.
+
+3. Que incorpore microprácticas cotidianas de convivencia con lo incierto.
+
+4. Que aprenda a usar rangos en vez de valores puntuales.
+
+5. Que vea que convivir con lo variable (clima, cuerpo, hábitos, energía) reduce la intolerancia al riesgo.
+
+
 La mayoría de los traders discrecionales viven buscando _la_ señal:
 
 * _“cuando rompa este nivel…”_

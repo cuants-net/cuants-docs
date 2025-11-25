@@ -2,6 +2,20 @@
 
 ## 1. La ansiedad aparece cuando la mente espera certezas
 
+
+### **Objetivos específicos:**
+
+1. Que el lector entienda que la intuición detecta patrones, pero no los valida.
+
+2. Que aprenda a formular una intuición como hipótesis (condición → posible efecto).
+
+3. Que comprenda cuándo una intuición es ruido y cuándo merece ser investigada.
+
+4. Que empiece a anotar intuiciones en un cuaderno para analizarlas más adelante.
+
+5. Que entienda la diferencia entre operar intuiciones y usar intuiciones como insumo analítico.
+
+
 La ansiedad del trader no viene del mercado. Viene de una expectativa equivocada:
 
 **la expectativa de que “debería saber qué va a pasar”.**
