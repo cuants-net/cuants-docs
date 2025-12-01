@@ -1,18 +1,5 @@
 # Pensar en escenarios
 
-
-### Objetivos específicos:
-
-1. Que el lector abandone el pensamiento binario (“sube/baja”, “entra/sale”).
-
-2. Que aprenda a generar escenarios posibles a partir de una situación real.
-
-3. Que comprenda cómo los escenarios reducen ansiedad y mejoran decisiones.
-
-4. Que pueda comparar decisiones basadas en señales vs decisiones basadas en escenarios.
-
-5. Que empiece a aplicar esta lógica en su vida cotidiana (distrito → clima → tareas → viajes)
-
 ## Introducción
 
 Hay un momento común en la vida diaria donde aparece exactamente la idea que queremos trabajar.
@@ -22,7 +9,7 @@ Estás por salir de casa, mirás el cielo, sentís la temperatura y te preguntá
 **¿Llevo abrigo?**
 
 No estás pensando de forma binaria.
-No es _“hace frío o hace calor”_.
+No es **“hace frío o hace calor”**
 Lo que hacés es algo mucho más natural: imaginás lo que podría pasar durante el día.
 
 Puede que se nuble y llueva.
@@ -89,7 +76,7 @@ El que piensa en escenarios lo ve distinto, en su mente aparecen tres caminos po
 
 1. **Rechazo fuerte:** el precio toca la zona y cae con velocidad.
 
-2. **Rechazo débil:** el precio se frena, respira y cae lentamente.
+2. **Rechazo débil:** el precio se frena y cae lentamente.
 
 3. **Ruptura:** la zona se rompe, pero con distintos grados de fuerza.
 
@@ -109,13 +96,13 @@ El trader no está adivinando, está organizando el caos.
 
 Cuando el precio finalmente se mueve, la mente del trader ya tiene un lugar donde colocar ese movimiento, no se paraliza, no se frustra, no se enoja, simplemente lo reconoce como uno de los caminos posibles.
 
-Esa es la diferencia profunda entre una señal y un escenario:
+Esa es la diferencia entre una señal y un escenario:
 
 * **la señal exige que pase una sola cosa**
 
 * **el escenario acepta que pueden pasar varias**
 
-Y, justamente por eso, el trader que piensa en escenarios, siente menos ansiedad y toma mejores decisiones.
+Y justamente por eso, el trader que piensa en escenarios, siente menos ansiedad y toma mejores decisiones.
 
 ## Conclusión
 

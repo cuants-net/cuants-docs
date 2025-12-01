@@ -1,3 +1,18 @@
+# **FICHA 6 — Prácticas Mentales para Desarrollar la Mentalidad Cuantitativa**
+
+### **Objetivos específicos:**
+
+1. Que el lector conozca ejercicios simples para “ver distribuciones” en la vida real.
+
+2. Que aprenda a pensar en escenarios mentalmente sin papel ni fórmulas.
+
+3. That adquiera prácticas de humildad epistémica (duda productiva).
+
+4. Que fortalezca su tolerancia natural al error y a la variabilidad.
+
+5. Que empiece a vivir de manera más perceptiva, estadística e intuitiva al mismo tiempo.
+
+
 # Prácticas mentales para desarrollar la mentalidad cuantitativa
 ## 1. Introducción: La mentalidad se entrena, no se declara
 

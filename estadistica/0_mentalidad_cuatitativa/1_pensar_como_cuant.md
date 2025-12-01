@@ -2,23 +2,9 @@
 
 **Lo único constante es la variabilidad**
 
-
-### **Objetivos específicos:**
-
-1. Que el lector comprenda que la variabilidad es natural y omnipresente.
-
-2. Que identifique fenómenos cotidianos donde la variabilidad aparece (clima, cuerpo, movilidad).
-
-3. Que entienda que el determinismo social es una ilusión aprendida, no una verdad.
-
-4. Que vea el mercado como un fenómeno natural, no como una máquina de certezas.
-
-5. Que reconozca que pensar en incertidumbre es una habilidad que ya usa, solo que sin darse cuenta.
-
-
 ## Introducción
 
-El pronóstico dice “0% de lluvia”, salimos confiados, sin abrigo, sin paraguas… y a mitad de la tarde cae un chaparrón que no figuraba en ningún lado. Nos sorprende, pero en el fondo no debería: el clima nunca prometió obedecernos. Cambia como quiere. Las nubes aparecen y desaparecen, el viento gira, la temperatura sube o baja sin pedir permiso. La variabilidad está ahí, todos los días, aunque la sociedad prefiera ignorarla porque no le conviene. Para que los horarios, las rutinas y los contratos funcionen sin caos, fabrica un mundo aparentemente estable, aunque la naturaleza no lo sea.
+El pronóstico dice “0% de lluvia”, salimos confiados, sin abrigo, sin paraguas… y a mitad de la tarde cae un chaparrón que no figuraba en ningún lado. Nos sorprende, pero en el fondo no debería: el clima nunca prometió obedecernos, cambia como quiere. Las nubes aparecen y desaparecen, el viento gira, la temperatura sube o baja sin pedir permiso. La variabilidad está ahí, todos los días, aunque la sociedad prefiera ignorarla porque no le conviene. Para que los horarios, las rutinas y los contratos funcionen sin caos, fabrica un mundo aparentemente estable, aunque la naturaleza no lo sea.
 
 Otro ejemplo cercano es el peso corporal. Mucha gente intenta “pesar un número fijo”, como si el cuerpo fuera un objeto inmóvil. Pero cualquiera que haya prestado atención sabe que el peso varía de un día a otro sin que pase nada extraordinario: un poco de agua retenida, una comida salada, menos sueño, más temperatura, un entrenamiento distinto. Dos o tres kilos arriba o abajo pueden aparecer en 24 horas. Aun así, tratamos al cuerpo como si fuera determinista, como si ese número tuviera que permanecer quieto.
 
@@ -42,13 +28,13 @@ La mentalidad cuantitativa es la forma de reconciliar estas dos realidades: acep
 
 La mentalidad determinista pregunta:
 
-_“¿Sube o baja?”_
+**“¿Sube o baja?”**
 
 La mentalidad cuantitativa pregunta:
 
-_“¿Cuáles son los rangos posibles?”\
-“¿Con qué frecuencia ocurren?”\
-“¿Qué impacto tiene cada uno?”_
+**“¿Cuáles son los rangos posibles?”
+“¿Con qué frecuencia ocurren?”
+“¿Qué impacto tiene cada uno?”**
 
 Es lo mismo que hacemos intuitivamente en la vida real:
 
@@ -60,8 +46,7 @@ El cuantitativo formaliza lo que el humano ya hace de forma natural.
 
 ## La incertidumbre no es una amenaza: es el entorno natural
 
-El problema no es la incertidumbre.
-El problema es que la sociedad nos enseñó a pensar que la incertidumbre es anormal, cuando en realidad es lo más normal.
+El problema no es la incertidumbre, sino que la sociedad nos enseñó a pensar que la incertidumbre es anormal, cuando en realidad es lo más normal.
 
 * La variabilidad es constante.
 
@@ -71,15 +56,15 @@ El problema es que la sociedad nos enseñó a pensar que la incertidumbre es ano
 
 * La estabilidad es una ilusión conveniente.
 
-El cuantitativo deja de luchar contra esto. Lo incorpora.\
+El cuantitativo deja de luchar contra esto. Lo incorpora.
 El error deja de ser una sorpresa y pasa a ser una variable más del sistema.
 
 ## Conclusión
 
 Pensar como cuantitativo es recuperar un modo de pensar natural que la sociedad, con su obsesión por la previsibilidad, nos hizo olvidar. Es volver a mirar el mundo como realmente es: variable, ruidoso, incierto y lleno de patrones que nacen y mueren.
 
-El cuantitativo no busca certezas. Busca decisiones robustas.\
+El cuantitativo no busca certezas. Busca decisiones robustas.
 No busca adivinar. Busca sobrevivir al ruido y aprovechar la repetición estadística.
 
-No lucha contra la incertidumbre: la convierte en la regla del juego.\
+No lucha contra la incertidumbre: la convierte en la regla del juego.
 Y en ese gesto, deja de ser un adivino frustrado para convertirse en un diseñador de decisiones en entornos complejos.
