@@ -1,0 +1,247 @@
+.
+├── ARQUITECTURA CONCEPTUAL.md
+├── backtesting
+│   ├── que_es_backtesting.md
+│   └── README.md
+├── blog
+│   ├── el_chico_fondo_bayes.md
+│   └── README.md
+├── CONTEXTO GENERAL.md
+├── CONTRIBUIR.md
+├── estadistica
+│   ├── 0_mentalidad_cuatitativa
+│   │   ├── 0.1_pensar_como_cuant.md
+│   │   ├── 0.2_pensar_escenarios.md
+│   │   ├── 0.3_incertidumbre_ansiedad.md
+│   │   ├── 0.4_intuicion_hipotesis.md
+│   │   ├── 0.5_integrar_intuicion_evidencia.md
+│   │   └── 0.6_entrenar_mente_cuant.md
+│   ├── 1_fundamentos
+│   │   ├── 1.1_tipos_datos.md
+│   │   ├── 1.2_poblacion_muestra.md
+│   │   ├── 1.3_metodos_muestreo.md
+│   │   ├── 1.4_retornos_simples_logaritmicos.md
+│   │   ├── 1.5_media_retornos.md
+│   │   └── 1.6_varianza_desviacion_estandar.md
+│   ├── 2_distribuciones
+│   │   ├── 2.1_que_es_distribucion.md
+│   │   ├── 2.2_distribuciones_empiricas.md
+│   │   ├── 2.3_distribuciones_discretas.md
+│   │   ├── 35a9e3e343f1d9818798f51fb3dcbdeb.png
+│   │   ├── acf66cd312527bef5d8d896cb91e2e97.png
+│   │   ├── distribuciones_continuas
+│   │   │   ├── distribucion_normal.md
+│   │   │   └── distribucion_uniforme.md
+│   │   ├── distribuciones_discretas
+│   │   │   ├── distribucion_binomial.md
+│   │   │   └── distribucion_poisson.md
+│   │   ├── distribuciones.ipynb
+│   │   ├── modelado_estadistico.md
+│   │   └── README.md
+│   ├── 3_descriptiva
+│   │   ├── 096661410f485125b8325c8ad3869e3f.png
+│   │   ├── 191f0adfacd0b0fa2e38da3f16bfa8ec.png
+│   │   ├── 3.1_medidas_centrales.md
+│   │   ├── 3.2_medidas_dispersion.md
+│   │   ├── 3.3_medidas_forma.md
+│   │   ├── 3.4_representaciones_graficas_a.md
+│   │   ├── 3.5_representaciones_graficas_b.md
+│   │   ├── 3.6_representaciones_graficas_c.md
+│   │   ├── 373467c539ad3ab1a6d600b21adc2349.png
+│   │   ├── 37aa907fca8aac5bf0647b22936fc4a6.png
+│   │   ├── 3.7_representaciones_graficas_d.md
+│   │   ├── 41f5fe38de828a218ae1d77153a659b8.png
+│   │   ├── 448415d3e9415d304298a6964149d134.png
+│   │   ├── 5c7e749b4b970dbccac643f0286a8b35.png
+│   │   ├── 60c6a759545db1f618c48c857037c06d.png
+│   │   ├── 7fd976ce195b701d9100b1f109c68ee4.png
+│   │   ├── 802c3c84ec9065be099e19a0bac41cac.png
+│   │   ├── 9246b7c2ff0e313bd708d94d1d1f9110.png
+│   │   ├── 98eac9a58e3ee28c243dc8b745f4482a.png
+│   │   ├── 9fec20689444d8dcb5b82507203a327a.png
+│   │   ├── b0437b37a30a56ff2a2412676ca1feb1.png
+│   │   ├── b0711271d15a803ad68c0a220c481b23.png
+│   │   ├── b5764d5bab33a9579fd603fde57e8f4e.png
+│   │   ├── c629f80ad7707dc6ecec31e3956938fc.png
+│   │   ├── cd2d78dd36a222657c593a359d896ac7.png
+│   │   ├── d844033b5313de5585abac3b00fdc4c7.png
+│   │   ├── d952bf503af0f2c2a8de1b19fe3b160b.png
+│   │   ├── descriptiva.ipynb
+│   │   ├── e3ff78d616488feabdb7672f7612f53a.png
+│   │   ├── eac1446bb85894f3447850902de2541e.png
+│   │   ├── f78dc019c6402897ac1c4c66487f2780.png
+│   │   └── fe33cba0a1f1bd9653e5c89bf41e7ff4.png
+│   ├── 4_inferencia_clasica
+│   │   ├── 3961b16e89626f7530eeef36bb2db4f3.png
+│   │   ├── 4.1_introduccion_inferencia.md
+│   │   ├── 4.2_condiciones_aplicar_inferencia.md
+│   │   ├── 4.3_errores_comunes_inferencia.md
+│   │   ├── 4.4_errores_potencia_estadistica.md
+│   │   ├── 4.5_cuantos_datos_necesito.md
+│   │   ├── 4.6_Introduccion_p-valor.md
+│   │   ├── 4.7_inferencia_series_no_estacionarias.md
+│   │   ├── 4.8_casos
+│   │   │   ├── caso_1
+│   │   │   │   ├── 181b4756978231a7ef5cbab414dbade0.png
+│   │   │   │   ├── 1.proporciones.md
+│   │   │   │   ├── 2.intervalo_hipotesis_proporciones.md
+│   │   │   │   ├── 3ed3157a7a4f24218fe94263b511a81b.png
+│   │   │   │   ├── 61d7a457f47694f290b60e2873b4128b.png
+│   │   │   │   ├── 7073796becea89f26eb7824dd480a14e.png
+│   │   │   │   ├── c413a84400ce5863491ace8ab91d3f34.png
+│   │   │   │   ├── caso1.ipynb
+│   │   │   │   └── f660ddbb6396cdd550b4aa21d8f763d1.png
+│   │   │   ├── caso_2
+│   │   │   │   ├── 1.media_desviacion.md
+│   │   │   │   ├── 2.intervalo_media.md
+│   │   │   │   ├── 656fb93fe639416cc9e2012849e3093f.png
+│   │   │   │   ├── caso2.ipynb
+│   │   │   │   └── daf7dd79563bcdde1fdba542bbbfe5ac.png
+│   │   │   ├── caso_3
+│   │   │   │   └── test_medias_emparejadas.md
+│   │   │   └── caso_4
+│   │   │       └── diferencia_medias_estrategias.md
+│   │   ├── 5b8bf716dd84ce720af22b6b1a4dafc6.png
+│   │   ├── 5ef2b2bbf9303ad85899e28e4d99ae89.png
+│   │   ├── 8c85a57c0b14f6c92f3bd4f3e254b783.png
+│   │   ├── a6b1244c579bed2887a8f3ea866f4400.png
+│   │   ├── d9746b00101a49deed1991cbcd5d27cb.png
+│   │   ├── de9828c4e1ac96407de97d31cf410374.png
+│   │   ├── ee6157d904deedaaf1e3cfd41970ff2f.png
+│   │   ├── fd63b89b36963f8027d1caf14a51b7d5.png
+│   │   └── README.md
+│   ├── 5_modelos_no_parametricos
+│   │   ├── 5.1_Introduccion_modelos_no_parametricos.md
+│   │   ├── 5.2_metodo_bootstrap.md
+│   │   ├── 5.3_intervalos_sin_formulas.md
+│   │   ├── 5.4_test_significancia_bootstrap.md
+│   │   ├── 5.5_prueba_independencia.md
+│   │   ├── 5.6_permutaciones.md
+│   │   ├── 5.7_kernel_permutaciones.md
+│   │   ├── bootstrap.ipynb
+│   │   ├── contrastes
+│   │   │   ├── 04c10f604f93d020704c23092a3b2046.png
+│   │   │   ├── contraste_medias_proporciones.md
+│   │   │   ├── Prueba_independencia_3vias.md
+│   │   │   ├── Prueba_independencia.md
+│   │   │   └── README.md
+│   │   ├── otros
+│   │   │   └── bootstrap.md
+│   │   └── README.md
+│   ├── 6_bayes
+│   │   ├── 131a8e6660bab3dc631a9d634aa21a16.png
+│   │   ├── 3b7046accefa64e78f116cf78f1afd65.png
+│   │   ├── 6.1_introduccion_bayes.md
+│   │   ├── 6.2_bayes_traders.md
+│   │   ├── 6.3_bayes_2.md
+│   │   ├── 6.4_porque_bayes.md
+│   │   ├── 6.5_regresion_bayesiana.md
+│   │   ├── 6.6_prior_empirico.md
+│   │   ├── 915838c1e23e79cbe58d780a82955dba.png
+│   │   ├── ab8a5b5eef7c1ca49dd2f96e21eb01ed.png
+│   │   ├── e3f8ff5a6cb461f05e4080243a6f60ad.png
+│   │   └── f8e84ec1a1c578514c228bbe24bebf22.png
+│   ├── 7_validacion
+│   │   ├── 8.1_muestras.md
+│   │   ├── 8.2_validacion_cruzada.md
+│   │   ├── 8.3_walk-forward.md
+│   │   └── 8.4_particiones_temporales.md
+│   ├── Notas de documentacion.md
+│   ├── procedimiento_documentacion.md
+│   └── README.md
+├── ESTILO DIDACTICO.md
+├── estrategias
+│   └── README.md
+├── estructura.txt
+├── GUIA EDITORIAL.md
+├── infraestructura
+│   └── README.md
+├── Libros de referencia.md
+├── Manifesto de registro.md
+├── modelado
+│   ├── 0_introduccion_modelado
+│   │   ├── 0.1_que_es_modelo.md
+│   │   ├── 0.2_modelo_vs_estadistica.md
+│   │   ├── 0.3_overfitting_underfitting.md
+│   │   └── 0.4_biased_unbiased.md
+│   ├── 1_regresion_lineal
+│   │   ├── 1.1_intuicion_geometrica.md
+│   │   ├── 1.2_modelo_estadistico.md
+│   │   ├── 1.3_estimacion_OLS.md
+│   │   ├── 1.4_diagnostico_residuos.md
+│   │   ├── 1.5_supuestos.md
+│   │   └── 1.6_regresion_lineal_trading.md
+│   ├── 2_regresion_logistica
+│   │   ├── 064512f9173074838d95ddca4bc35516.png
+│   │   ├── 2144b5370b0845e5734cd62793c6a1bf.png
+│   │   ├── 534802e736aa9f87b7204f3707328090.png
+│   │   ├── 85de22ab0849c6fa4be2bf677887e8d2.png
+│   │   ├── a407b74235feb6e88cd98a333b73ebb8.png
+│   │   ├── a73c7b99bf2e2ba7c1cf6fa0f2a8f647.png
+│   │   ├── cfddfa38302b354fb441bfe017d8bb84.png
+│   │   ├── Codificacion regresion logistica.md
+│   │   ├── entrenamiento_regresion_logistica.md
+│   │   ├── Regresion logistica.md
+│   │   └── Regresion_Poisson.md
+│   ├── 3_series_temporales
+│   │   ├── 3.10_series_temporales_trading.md
+│   │   ├── 3.1_fundamentos_series.md
+│   │   ├── 3.2_estacionariedad.md
+│   │   ├── 3.3_acf_pacf.md
+│   │   ├── 3.4_modelos_AR.md
+│   │   ├── 3.5_modelos_MA.md
+│   │   ├── 3.6_modelos_ARMA.md
+│   │   ├── 3.7_modelos_ARIMA.md
+│   │   ├── 3.8_modelos_volatilidad.md
+│   │   └── 3.9_transformaciones.md
+│   ├── 4_regularizacion
+│   │   ├── 4.1_concepto.md
+│   │   ├── 4.2_ridge.md
+│   │   ├── 4.3_lasso.md
+│   │   ├── 4.4_elastic_net.md
+│   │   ├── 4.5_comparacion.md
+│   │   └── README.md
+│   ├── 5_modelos_no_parametricos_aplicados
+│   │   ├── 5.1_kNN_regresion.md
+│   │   ├── 5.2_loess_suavizado.md
+│   │   ├── 5.3_kernel_regression.md
+│   │   └── README.md
+│   ├── 6_ml_supervisado
+│   │   ├── 6.1_arboles_decision.md
+│   │   ├── 6.2_random_forest.md
+│   │   ├── 6.3_gradient_boosting.md
+│   │   ├── 6.4_svm.md
+│   │   ├── 6.5_redes_shallow.md
+│   │   └── README.md
+│   ├── 7_validacion_modelos
+│   │   ├── 7.1_train_test_split.md
+│   │   ├── 7.2_cross_validation.md
+│   │   ├── 7.3_walk_forward_modelado.md
+│   │   ├── 7.4_metricas_modelos.md
+│   │   └── README.md
+│   └── README.md
+├── portafolios
+│   └── README.md
+├── python
+│   ├── estrategias.md
+│   ├── introduccion.md
+│   ├── notebooks
+│   │   ├── 1.1_variables.ipynb
+│   │   ├── 1.2_secuencias.ipynb
+│   │   ├── 1.3_cadenas_caracteres.ipynb
+│   │   └── 2_sentencias_control.ipynb
+│   └── README.md
+├── README.md
+└── riesgo
+    ├── calmar_ratio.md
+    ├── drawdown.md
+    ├── estrategia_baja_precision.md
+    ├── expectancy_payoff.md
+    ├── odds_ratio.md
+    ├── profit_factor.md
+    ├── README.md
+    ├── rolling_sharpe.md
+    ├── sharpe_ratio.md
+    └── sortino_ratio.md
+
+36 directories, 209 files
