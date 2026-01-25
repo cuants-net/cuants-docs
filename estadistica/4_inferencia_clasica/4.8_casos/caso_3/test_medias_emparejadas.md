@@ -1,4 +1,4 @@
-# Test de medias emparejadas
+# Test de medias emparejadas (caso 3)
 
 ## Introducción
 
